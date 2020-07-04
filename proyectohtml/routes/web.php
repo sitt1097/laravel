@@ -61,3 +61,25 @@ Route::get('menueliminaradm', function () {
 Route::get('menumodificaradm', function () {
     return view('administrador/agregar/tipodeusuarios');
 });
+Route::get('recuperacion', function () {
+    return view('mensajes/recuperarpass');
+});
+Route::get('valida', function () {
+    return view('validaruser');
+});
+
+Route::get('admdate', function () {
+    return view('datos/datoadm');
+});
+Route::get('egredate', function () {
+    return view('datos/datoegre');
+});
+Route::get('estdate', function () {
+    return view('datos/datoest');
+});
+Route::get('profdate', function () {
+    return view('datos/datoprof');
+});
+Route::get('empdate', function () {
+    return view('datos/datoempre');
+});

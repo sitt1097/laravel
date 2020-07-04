@@ -59,46 +59,47 @@
         <!---------------------------------------------------------------------------------------------------------------->
         <!-- AQUI VA CONTENIDO DE LA PAGINA-->
         <div class="contenido">
-            <h1 class="tit1">TIPO DE USUARIOS </h1>
-            <a href="#" class="btn btn-primary medium">cerrar sesion  </a>
-
-
+        <h1 class="tit1">Ingresa los datos del Egresado</h1>
+            
             <div class="row">
+            <form action="" method="get">
+          <p>Nombre: <input type="text" name="nombre" size="30" required></p>
+          <p>Apellido: <input type="text" name="apellido" size="30" required></p>
+          <p>Cédula: <input type="text" name="cedula" size="30" required></p>
+          <p>Contraseña: <input type="text" name="contraseña" size="30" required></p>
+          <p>Correo: <input type="text" name="correo" size="30" required></p>
+          <p>Telefono: <input type="text" name="telefono" size="30" required></p>
+          <label for="cars">SEDE :</label>
+  <select id="SEDE" name="Sede">
+    <option value="volvo">Panama</option>
+    <option value="saab">Cocle</option>
+    <option value="fiat">Colon</option>
+    <option value="audi">Veraguas</option>
+  </select>
+  <label for="cars">CARRERA :</label>
+  <select id="SEDE" name="Sede">
+    <option value="volvo">DESARROLLO DE SOFTWARE</option>
+    <option value="saab">INGENERIA EN SISTEMA</option>
+    <option value="fiat">REDES INFORMATICAS</option>
+    
+  </select>
+           </form>
+                
+    </div>
+         </div>
+       
 
-                <div class="col-md-3">
-
-
-                    <div class="centrado">
-
-
-                        <a href="/admdate" class="btn btn-primary medium">ADMINISTRADOR </a>
-                    </div>
-                    <div class="centrado">
-
-                     <a href="/profdate" class="btn btn-primary medium">PROFESOR </a>
-                       </div>
-                       <div class="centrado">
-
-                     <a href="/estdate" class="btn btn-primary medium">ESTUDIANTES </a>
-                       </div>
-                       <div class="centrado">
-
-<a href="/egredate" class="btn btn-primary medium">EGRESADOS </a>
-  </div>
-  <div class="centrado">
-
-                     <a href="/empdate" class="btn btn-primary medium">EMPRESARIO </a>
-                       </div>
+         <div class="botonvolver3">
+                    <a href="#" class="btn btn-success">Volver</a>
                 </div>
-
-
-
+                <div class="botonaceptar1">
+                    <a href="#" class="btn btn-success">Aceptar</a>
+                </div>
 
                 <!---------------------------------------------------------------------------------------------------------------->
                
+                
 
-
-            </div>
 
 
 

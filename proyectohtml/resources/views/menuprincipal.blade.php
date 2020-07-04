@@ -75,11 +75,11 @@
                     </div>
                     <div class="centrado">
 
-                     <a href="#" class="btn btn-primary medium">MODIFICAR USUARIO </a>
+                     <a href="/menumodificaradm" class="btn btn-primary medium">MODIFICAR USUARIO </a>
                        </div>
                        <div class="centrado">
 
-                     <a href="#" class="btn btn-primary medium">ELIMINAR USUARIO </a>
+                     <a href="/menueliminaradm" class="btn btn-primary medium">ELIMINAR USUARIO </a>
                        </div>
                       
                 </div>

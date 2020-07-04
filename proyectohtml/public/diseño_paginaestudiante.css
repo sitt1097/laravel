@@ -310,3 +310,34 @@ disminuir el tamaño del dispositivo*/
     position: absolute;
     top: 94%;
 }
+
+.botonvolver3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.botonvolver3 {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+}
+
+.botonvolver1 {
+    position: absolute;
+    top: 75%;
+}
+
+.botonaceptar {
+    position: absolute;
+    top: 75%;
+    right: 50px;
+    height: 150px;
+    width: 150px;
+}
+
+.botonaceptar1 {
+    position: absolute;
+    top: 90%;
+    right: 25%;
+}

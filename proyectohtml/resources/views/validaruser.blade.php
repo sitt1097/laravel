@@ -59,7 +59,9 @@
         <!---------------------------------------------------------------------------------------------------------------->
         <!-- AQUI VA CONTENIDO DE LA PAGINA-->
         <div class="contenido">
-            <h1 class="tit1">TIPO DE USUARIOS </h1>
+            
+            <h1 class="tit1">Validar Usuario</h1>
+           
             <a href="#" class="btn btn-primary medium">cerrar sesion  </a>
 
 
@@ -70,25 +72,10 @@
 
                     <div class="centrado">
 
-
-                        <a href="/admdate" class="btn btn-primary medium">ADMINISTRADOR </a>
+                    <input type="text" name="nombre" size="30">
                     </div>
-                    <div class="centrado">
-
-                     <a href="/profdate" class="btn btn-primary medium">PROFESOR </a>
-                       </div>
-                       <div class="centrado">
-
-                     <a href="/estdate" class="btn btn-primary medium">ESTUDIANTES </a>
-                       </div>
-                       <div class="centrado">
-
-<a href="/egredate" class="btn btn-primary medium">EGRESADOS </a>
-  </div>
-  <div class="centrado">
-
-                     <a href="/empdate" class="btn btn-primary medium">EMPRESARIO </a>
-                       </div>
+                    <a href="#" class="btn btn-primary medium">Buscar</a>
+                      
                 </div>
 
 
@@ -101,6 +88,9 @@
             </div>
 
 
+            <div class="botonvolver2">
+                    <a href="#" class="btn btn-success">Volver</a>
+                </div>
 
 
 </body>
